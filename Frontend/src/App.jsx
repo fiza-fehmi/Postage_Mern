@@ -3,6 +3,7 @@ import CreatePost from './Pages/CreatePost'
 import Feed from './Pages/Feed'
 const App = () => {
   return (
+
     
       <Routes>
         <Route path='/' element={<CreatePost />} />
